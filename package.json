@@ -2,6 +2,7 @@
   "name": "test_ui_library",
   "version": "1.0.0",
   "description": "ui_component_library",
+  "repository": "https://github.com/cassyvan/test_ui_library.git",
   "scripts": {
     "test": "test",
     "build": "rollup -c",
@@ -41,5 +42,9 @@
     ">0.2%",
     "not dead",
     "not op_mini all"
-  ]
+  ],
+  "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "cross-env": "^7.0.3"
+  }
 }
