@@ -18,7 +18,7 @@ export const MainLabel = styled(Typography)`
   }
 `;
 
-export const SettingCard: React.FC<SettingCardProps> = props => {
+const SettingCard: React.FC<SettingCardProps> = props => {
   const { title, subtitle, description, children, footerChildren } = props;
 
   return (
@@ -38,4 +38,4 @@ export const SettingCard: React.FC<SettingCardProps> = props => {
   );
 };
 
-export type { SettingCardProps };
+export default SettingCard;

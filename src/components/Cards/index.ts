@@ -1,2 +1,2 @@
 export { default as AddCard } from './AddCard';
-export { SettingCard } from './SettingCard';
+export { default as SettingCard } from './SettingCard';
